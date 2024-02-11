@@ -1,0 +1,95 @@
+/* Font import Josefin Sans */
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans:wght@400;600;700&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1B1924;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.hero {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+img {
+   display: block;
+   margin: auto;
+   width: 90px; 
+}
+
+h1 {
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px auto;
+}
+
+.container-input {
+    max-width: 320px;
+    margin: auto;
+
+}
+
+#input-El {
+    display: block;
+    margin: auto;
+    height: 120px;
+    width: 320px;
+    background-color: #444059;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
+    resize:none;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+#publish-btn {
+    width: 320px;
+    color: #04131C;
+    background-color: #28A9F1;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.container-endorsement {
+    max-width: 320px;
+    margin: auto;
+
+}
+
+h2 {
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+     
+}
+
+ul {
+   list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+}
+
+ul li{
+    margin: 10px auto;
+    padding: 10px;
+    color: #1B1924;
+    background-color: #FFF;
+    text-align:left;
+    font-size: 12px;
+}
